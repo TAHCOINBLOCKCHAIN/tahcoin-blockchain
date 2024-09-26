@@ -10,9 +10,9 @@ Tahcoin is a decentralized cryptocurrency built on a blockchain network designed
 
 3. **Proof-of-Work Consensus**: Tahcoin employs a Proof-of-Work (PoW) consensus mechanism to validate transactions and add new blocks to the blockchain. This mechanism ensures network security and transparent transaction processing.
 
-4. **Block Confirmation**: Transactions on the Tahcoin blockchain require 10 block confirmations to ensure their validity and security.
+4. **Block Confirmation**: Transactions on the Tahcoin blockchain require 199 block confirmations to ensure their validity and security.
 
-5. **Block Generation Time**: A new block is generated approximately every 9.99 minutes, allowing for efficient transaction processing while maintaining network stability.
+5. **Block Generation Time**: A new block is generated approximately every 19 seconds, allowing for efficient transaction processing while maintaining network stability.
 
 6. **Mining Rewards**: Miners receive rewards in Tahcoin for successfully mining new blocks, eliminating the need for transaction fees. This approach ensures that users do not waste coins on fees that do not contribute to the network.
 
@@ -23,10 +23,10 @@ Tahcoin is a decentralized cryptocurrency built on a blockchain network designed
 ## Blockchain Details
 
 ### Block Rewards
-- **Block Reward**: Each successfully mined block rewards miners with **0.0313 TAH**.
+- **Block Reward**: Each successfully mined block rewards miners with **0.019990904 TAH**.
 
 ### Block Finding Time
-- **Finding Time**: The average time to find a new block is approximately **9 seconds**.
+- **Finding Time**: The average time to find a new block is approximately **19 seconds**.
 
 ### Difficulty Adjustment
 - **Difficulty Selection**: Miners can select the difficulty level when attempting to find a new block.
