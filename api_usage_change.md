@@ -76,12 +76,14 @@ If PHP is not installed on your computer, follow these steps to install it:
 To send Tahcoin using the API, you will use this command:
 
 ```
-php api_313.php 'your_public_key' 'your_private_key' 'receiver_public_key' 'amount'
+curl -X POST 'https://tahriver.online/api_313.php' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'public_key=your_public_key&private_key=your_private_key&receiver_address=your_receiver_address&amount=0.019990904'
 ```
 
 ### Breaking Down the Command
 
-- **`php api_313.php`**: This part tells your computer to run the program called `api_313.php`, which handles the transaction.
+- **`curl -X api_313.php`**: This part tells your computer to run the program called `api_313.php`, which handles the transaction.
 - **`'your_public_key'`**: Replace this with your actual public key (your wallet address).
 - **`'your_private_key'`**: Replace this with your actual private key (your secure access key).
 - **`'receiver_public_key'`**: Replace this with the public key of the person you want to send money to (their wallet address).
@@ -99,7 +101,9 @@ Let’s say:
 Your command would look like this:
 
 ```
-php api_313.php 'TAH313' 'HER313' 'TAH1999' '9'
+curl -X POST 'https://tahriver.online/api_313.php' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'public_key=TAH313&private_key=HER313&receiver_address=TAH1999&amount=9'
 ```
 
 ## Running the Command
