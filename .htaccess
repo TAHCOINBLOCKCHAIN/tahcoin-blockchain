@@ -1,0 +1,27 @@
+# Enable the use of mod_headers and mod_rewrite
+<IfModule mod_headers.c>
+    # Allow CORS for all domains
+    Header set Access-Control-Allow-Origin "*"
+    
+    # Allow specific methods
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    
+    # Allow specific headers
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+    
+    # Prevent Inject
+    header("Content-Security-Policy: default-src 'self'; script-src 'self';");
+</IfModule>
+
+# Handle preflight requests (OPTIONS)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^(.*)$ $1 [R=200,L]
+</IfModule>
+
+# Ensure that .thr files are served correctly with JSON content type
+<FilesMatch "\.(thr)$">
+    Header set Content-Type application/json
+</FilesMatch>
+php_value memory_limit 512M
