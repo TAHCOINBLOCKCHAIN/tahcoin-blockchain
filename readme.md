@@ -89,7 +89,7 @@ Once you have set up your Tahcoin river, you can start mining by following these
 
 Here are some currently online rivers where you can mine Tahcoin:
 
-- **Tah Ocean (Live Ocean started at 1:11 PM GMT+6 on September 26, 2024.)(Last updated at 6:31 PM GMT+6 on September 26, 2024.)**: [http://tahriver.online](http://tahriver.online)
+- **Tah Ocean (Started at 1:11 PM GMT+6 on September 26, 2024. Currently Offline)(Last updated at 8:50 PM GMT+6 on July 1, 2025.)**: [http://tahriver.online](http://tahriver.online)
 
 Visit any of these rivers to start mining by creating a wallet and pasting your wallet address in the river UI.
 
